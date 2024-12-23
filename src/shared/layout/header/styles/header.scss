@@ -1,0 +1,200 @@
+header .headerTop .headerContent {
+  display: flex;
+  gap: 20px;
+}
+header .headerTop{
+  background: #fff;
+}
+header .headerTop .headerContent .headerLogo {
+  width: 150px;
+  display: grid;
+  align-items: center;
+}
+header .headerTop .headerContent .headerRight {
+  padding: 9.5px 0px;
+  display: grid;
+  justify-content: end;
+  align-items: center;
+  width: calc(100% - 150px);
+}
+header .headerTop .headerContent .headerRight .headerRightContent {
+  gap: 20px;
+  display: flex;
+  align-items: center;
+}
+header .headerTop .headerContent .headerRight .headerRightContent .headerNoti div{
+  cursor: pointer;
+}
+header .headerTop .headerContent .headerRight .headerRightContent .headerPlan i {
+  background: #fff;
+  border: 1px solid #D0D6E5;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 19.6px;
+  letter-spacing: -0.2800000012px;
+  text-align: center;
+  color: #6D727C;
+  padding: 2px 30px 2px 12px;
+  border-radius: 4px;
+  position: relative;
+}
+header .headerTop .headerContent .headerRight .headerRightContent .headerPlan i svg {
+  position: absolute;
+  top: 50%;
+  right: 12px;
+  transform: translate(0%, -50%);
+}
+header .headerTop .headerContent .headerRight .headerRightContent .headerUser a {
+  text-decoration: unset;
+  position: relative;
+  padding-left: 27.5px;
+  padding-right: 22px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.94px;
+  letter-spacing: -0.2800000012px;
+  text-align: center;
+  color: #061020;
+}
+header .headerTop .headerContent .headerRight .headerRightContent .headerUser a .icon_header_user {
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  transform: translate(0%, -50%);
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  max-width: 100%;
+  overflow: hidden;
+  /*max-height: 100%;*/
+}
+header .headerTop .headerContent .headerRight .headerRightContent .headerUser a .icon_header_bottom {
+  position: absolute;
+  top: 50%;
+  right: 0px;
+  transform: translate(0%, -50%);
+}
+header .headerTop .headerContent .headerRight .headerRightContent .headerUser a:hover {
+  color: #061020;
+}
+header .navbar {
+  padding: 0px;
+  background: #054A9F;
+  display: flex;
+}
+header .navbar .navbar-list {
+  margin-bottom: 0px;
+  width: calc(100% - 138px);
+  display: flex;
+  list-style-type: none;
+  padding-left: 0px;
+}
+header .navbar .navbar-list li {
+  position: relative;
+  padding: 8px 23px;
+}
+header .navbar .navbar-list li a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: unset;
+}
+header .navbar .navbar-list li a span {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 19.6px;
+  letter-spacing: -0.2099999934px;
+  text-align: left;
+}
+header .navbar .navbar-list li .dropdown-list {
+  display: none;
+  list-style-type: none;
+  position: absolute;
+  top: 40px;
+  left: 0px;
+  width: 280px;
+  background: #054A9F;
+  border-radius: 8px;
+  padding: 8px 0px;
+  z-index: 5;
+}
+header .navbar .navbar-list li .dropdown-list .dropdown-list-item {
+  position: relative;
+  padding: 8px 23px;
+}
+header .navbar .navbar-list li .dropdown-list .dropdown-list-item a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: unset;
+}
+header .navbar .navbar-list li .dropdown-list .dropdown-list-item a span {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 19.6px;
+  letter-spacing: -0.2099999934px;
+  text-align: left;
+}
+header .navbar .navbar-list li .dropdown-list .dropdown-list-item:hover {
+  background: #0E72ED;
+}
+header .navbar .navbar-list li:hover {
+  background: #0E72ED;
+}
+header .navbar .navbar-list li:hover .dropdown-list {
+  display: block;
+}
+header .navbar .navbar-list .active {
+  background: #0E72ED;
+}
+header .navbar .navbarSell {
+  width: 138px;
+  margin-bottom: 0px;
+  list-style-type: none;
+  padding-left: 0px;
+  height: 100%;
+}
+header .navbar .navbarSell li {
+  width: 100%;
+  height: 100%;
+  background: #FF6B00;
+  display: grid;
+  justify-content: center;
+}
+header .navbar .navbarSell li a {
+  text-decoration: unset;
+  padding: 10px 0px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+header .navbar .navbarSell li a span {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 19.6px;
+  letter-spacing: -0.2099999934px;
+  text-align: left;
+  color: #fff;
+}
+.ant-dropdown-menu-title-content a{
+  text-decoration: unset;
+}
+.ant-dropdown-menu-title-content a:hover{
+  text-decoration: unset;
+}
+.dropdown-header-menu{
+  display: block;
+  padding: 8px 10px;
+}
+.noti-pos{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  height: 100%;
+  overflow: auto;
+  background: #fff;
+}
+/*# sourceMappingURL=header.css.map */

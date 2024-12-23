@@ -1,0 +1,93 @@
+.container {
+  padding: 0px 20px;
+  max-width: 100%;
+}
+
+body {
+  position: relative;
+  background: #ecf2f7;
+}
+body .success-status {
+  padding: 3px 10px 3px 10px;
+  gap: 4px;
+  border-radius: 12px;
+  background: #58C35A;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14.4px;
+  text-align: center;
+}
+body .disable-status {
+  padding: 3px 10px 3px 10px;
+  gap: 4px;
+  border-radius: 12px;
+  background: #888888;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14.4px;
+  text-align: center;
+}
+
+.no-content__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+  gap: 20px;
+}
+.no-content__container img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.bob-rli-bounding-box {
+  font-size: 3px !important;
+}
+
+.btn-add-modal {
+  background: #0E72ED;
+  border-radius: 8px;
+  width: auto;
+  display: grid;
+  align-items: center;
+  border: unset;
+  justify-content: center;
+  padding: 0px 16px 0px 12px;
+}
+.btn-add-modal span {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.94px;
+  letter-spacing: -0.2800000012px;
+  text-align: left;
+  color: #FFFFFF;
+  position: relative;
+  padding-left: 26px;
+}
+.btn-add-modal span img {
+  position: absolute;
+  top: -4px;
+  left: 0px;
+}
+
+.ant-select-single .ant-select-selector .ant-select-selection-search {
+  inset-inline-start: 0px;
+}
+
+.ant-select .ant-select-arrow {
+  margin-top: -3px;
+  margin-right: -2px;
+}
+
+.ant-select .ant-select-clear svg {
+  width: 20px;
+  height: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */

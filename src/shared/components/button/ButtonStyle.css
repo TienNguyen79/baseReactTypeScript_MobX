@@ -1,0 +1,78 @@
+.button_add {
+  padding: 6px 12px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  font-size: 14px;
+}
+.button_add .title-btn {
+  width: max-content;
+}
+
+.button_add_form_table {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+}
+.button_add_form_table:hover {
+  color: white;
+  opacity: 0.8;
+}
+
+.btn_add,
+.button_add_form_table {
+  background: #0089d6;
+  color: white;
+}
+.btn_add img,
+.button_add_form_table img {
+  margin-right: 4px;
+}
+.btn_add:hover, .btn_add:focus-visible, .btn_add:focus, .btn_add:active,
+.button_add_form_table:hover,
+.button_add_form_table:focus-visible,
+.button_add_form_table:focus,
+.button_add_form_table:active {
+  color: white;
+  background: rgb(0, 106, 166);
+}
+
+a {
+  text-decoration: none;
+}
+
+.bt_export:hover,
+.bt_export:active,
+.bt_export:focus {
+  color: white !important;
+  background: rgb(0, 106, 166) !important;
+}
+
+.bt_import_data {
+  position: relative;
+  width: auto;
+  height: 36px;
+  background: #0089D6;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer !important;
+}
+.bt_import_data:hover, .bt_import_data:active {
+  background: rgb(0, 106, 166);
+}
+.bt_import_data input {
+  position: absolute;
+  cursor: pointer !important;
+  width: 100%;
+  height: 36px;
+  opacity: 0;
+}
+.bt_import_data button {
+  margin: 0 !important;
+}
+
+/*# sourceMappingURL=ButtonStyle.css.map */

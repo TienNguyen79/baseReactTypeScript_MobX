@@ -1,0 +1,317 @@
+@charset "UTF-8";
+.tableDesign thead {
+  border-bottom: 0px;
+}
+
+.tableDesign thead tr {
+  border-bottom: 0px;
+  background: #F6F8FA;
+}
+
+.tableDesign thead tr th {
+  border-bottom: 0px !important;
+  background-color: #F6F8FA !important;
+  text-transform: unset !important;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 100% !important;
+  letter-spacing: -0.2099999934px !important;
+  color: #757575 !important;
+}
+
+.tableDesign thead tr th input[type=checkbox] {
+  appearance: none;
+  background: transparent;
+  position: relative;
+}
+
+.tableDesign thead tr th input[type=checkbox]::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  text-align: center;
+  background: #fff;
+  display: block;
+  pointer-events: none;
+  opacity: 1;
+  color: black;
+  border: 1px solid #BABABA;
+}
+
+.tableDesign thead tr th input[type=checkbox] + label {
+  line-height: 24px;
+  margin: 0 15px 0 15px;
+}
+
+.tableDesign thead tr th input[type=checkbox]:checked::after {
+  content: "✓";
+  color: #fff;
+  background: #0e72ed;
+  border: 1px solid #0e72ed;
+  font-size: 18px;
+}
+
+.tableDesign thead tr th input[type=checkbox],
+.tableDesign thead tr th input[type=checkbox]::after {
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+  line-height: 20px;
+  vertical-align: middle;
+  border-radius: 4px;
+}
+
+.tableDesign thead tr th * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.tableDesign tbody tr {
+  border-bottom: 1px solid #ECF2F7;
+}
+
+.tableDesign tbody tr:hover {
+  background: unset;
+}
+
+.tableDesign tbody tr td {
+  padding: 18px 10px !important;
+  line-height: 130%;
+  vertical-align: middle;
+}
+
+.tableDesign tbody tr td p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+  color: #061020;
+  margin-bottom: 0px;
+}
+
+.tableDesign tbody tr td .text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: center;
+  color: #061020;
+}
+
+.tableDesign tbody tr td input[type=checkbox] {
+  appearance: none;
+  background: transparent;
+  position: relative;
+}
+
+.tableDesign tbody tr td input[type=checkbox]::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  text-align: center;
+  background: #fff;
+  display: block;
+  pointer-events: none;
+  opacity: 1;
+  color: black;
+  border: 1px solid #BABABA;
+}
+
+.tableDesign tbody tr td input[type=checkbox] + label {
+  line-height: 24px;
+  margin: 0 15px 0 15px;
+}
+
+.tableDesign tbody tr td input[type=checkbox]:checked::after {
+  content: "✓";
+  color: #fff;
+  background: #0e72ed;
+  border: 1px solid #0e72ed;
+  font-size: 18px;
+}
+
+.tableDesign tbody tr td input[type=checkbox],
+.tableDesign tbody tr td input[type=checkbox]::after {
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+  line-height: 20px;
+  vertical-align: middle;
+  border-radius: 4px;
+}
+
+.tableDesign .flexItem {
+  display: flex;
+  align-items: center;
+}
+
+.tableDesign .flexItem .image {
+  display: grid;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+}
+
+.tableDesign .flexItem .image img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 50%;
+}
+
+.tableDesign .flexItem .info {
+  padding-left: 10px;
+  width: calc(100% - 44px);
+  display: grid;
+  align-items: center;
+}
+
+.tableDesign .flexItem .info .contentInfo {
+  display: grid;
+  gap: 2px;
+}
+
+.tableDesign .flexItem .info .contentInfo p {
+  margin-bottom: 0px;
+}
+
+.tableDesign .flexItem .info .contentInfo .codeOrder {
+  text-align: left;
+}
+
+.tableDesign .flexItem .info .contentInfo .codeOrder a {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.36px;
+  letter-spacing: -0.0299999993px;
+  text-align: left;
+  color: #000;
+  text-decoration: none;
+}
+
+.tableDesign .flexItem .info .contentInfo .name {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+  color: #BABABA;
+}
+
+.tableDesign .flexItem .info .contentInfo .money {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+  color: #6D727C;
+}
+
+.tableDesign .btnEdit {
+  background-color: unset !important;
+  border: unset !important;
+  box-shadow: unset !important;
+  padding: 0px 5px;
+}
+
+.tableDesign .btnEdit:after {
+  content: unset;
+}
+
+.tableDesign .btnEdit:focus {
+  background-color: unset !important;
+}
+
+.tableDesign .btnEdit:focus svg path {
+  fill: #0e72ed;
+}
+
+.tableDesign .btnEdit:active {
+  background-color: unset !important;
+}
+
+.tableDesign .btnEdit:active svg path {
+  fill: #0e72ed;
+}
+
+.tableDesign .btnEdit:hover {
+  background-color: unset !important;
+}
+
+.tableDesign .btnEdit:hover svg path {
+  fill: #0e72ed;
+}
+
+.tableDesign .btnRemove {
+  background-color: unset !important;
+  border: unset !important;
+  box-shadow: unset !important;
+  padding: 0px 5px;
+}
+
+.tableDesign .btnRemove i {
+  color: #6D727C;
+  font-size: 14px;
+}
+
+.tableDesign .btn-delete {
+  padding: 0px 5px;
+}
+
+.tableDesign .btn-delete:hover {
+  background-color: unset !important;
+}
+
+.tableDesign .btn-delete:hover svg path {
+  fill: #ED3724;
+}
+
+.tableDesign .btn-primary:focus:active, .tableDesign .btn-primary.disabled:focus:active {
+  background-color: unset !important;
+}
+
+.act {
+  width: 400px;
+  margin-bottom: 20px;
+}
+
+.act .input-group {
+  gap: 12px;
+  display: flex;
+}
+
+.act .input-group .form-control {
+  background: #ECF2F7;
+  color: #061020;
+  height: 44px;
+  padding: 0px 12px;
+  border-radius: 8px;
+  border: 1px solid #ECF2F7;
+  width: 200px;
+}
+
+.act .input-group .form-control:focus {
+  outline: unset;
+}
+
+.act .input-group .input-group-append button {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  line-height: 100%;
+  width: 100%;
+  height: 44px;
+  background: #0e72ed;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: -0.2800000012px;
+  text-align: left;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.dataTables_info {
+  display: none;
+}
+
+/*# sourceMappingURL=table.css.map */

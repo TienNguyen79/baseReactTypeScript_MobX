@@ -1,0 +1,16 @@
+
+.form-group{
+  .border_error{
+    border: 1px solid red;
+  }
+  .error{
+    border-color: red;
+    color: red;
+    display: inline-block;
+    font-size: 13px;
+    margin-bottom: 0;
+    min-height: 20px;
+    padding-top: 4px;
+    width: 100%;
+  }
+}

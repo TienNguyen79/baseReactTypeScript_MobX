@@ -1,0 +1,25 @@
+body {
+  height: 100vh;
+}
+
+.root {
+  height: 100vh;
+}
+
+.demo {
+  height: 100vh;
+  background-image: url("/public/assets/images/bg_img_login_2.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.demo .container .demo-row {
+  margin-bottom: 20px;
+  gap: 15px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.demo .container button {
+  display: block;
+}
+
+/*# sourceMappingURL=demo.css.map */
